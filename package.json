@@ -1,0 +1,22 @@
+{
+  "name": "aws-price-cruncher",
+  "version": "1.0.0",
+  "description": "Manage AWS through APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "s3"
+  ],
+  "author": "jparasha",
+  "license": "ISC",
+   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+	"cors":	"",
+	"aws-sdk":"^2.94.0"
+  }
+}
